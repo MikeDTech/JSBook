@@ -1,0 +1,38 @@
+/* Partials
+name files as follows:
+_nav.scss
+
+include this file to the main.scss file using (leave off the _ and the .scss
+
+@import: "nav";
+
+add to main.scss
+
+
+on the html file only link to the main.css file
+*/
+
+nav{
+  ul{
+    background-color: $bg-color;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  a{
+    color: $text-color;
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    background: $hover-color;
+  }
+
+}
